@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+body{
+    font-family: 'Sora', sans-serif;
+
+}
+
+.banner-header h5{
+    font-size: 3rem;
+}
+
+.banner-img{
+    filter: brightness(50%);
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    .banner-header h5{
+        font-size: 1rem;
+    }
+    .banner-header p{
+        font-size: .7rem;
+    }
+    
+}

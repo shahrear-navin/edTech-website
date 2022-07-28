@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Tech Edu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- navigation -->
@@ -24,13 +25,13 @@
                                 <a href="#" class="nav-link active" aria-current="page">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Courses</a>
+                                <a href="#courses" class="nav-link">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Feedback</a>
+                                <a href="#register" class="nav-link">Register</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">FAQ</a>
+                                <a href="#faq" class="nav-link">FAQ</a>
                             </li>
                         </ul>
                     </div>
@@ -40,38 +41,51 @@
     </header>
     <main>
       <!-- carousel section -->
-        <section class="container hero-banner">
+        <section class="container hero-banner mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner bg-dark bg-gradient">
                   <div class="carousel-item active">
-                    <div>
+                    <div class="banner-img">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-intem-cente banner-header">
                       <h5>Get Started Digital Learning</h5>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                      <button type="button" class="btn btn-light px-4 py-2 btn-header">Book Now</button>
+                      <p>Bring powerful digital learning into your professional practice. Explore current issues and emerging trends in the field.</p>
+                      <div>
+                        <button type="button" class="btn btn-primary bg-gradient px-4 py-2 btn-header">Book Now</button>
+                      </div>
+                      
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
+                    <div class="banner-img">
+                      <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-intem-cente banner-header">
                       <h5>Get Started Digital Learning</h5>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                      <button type="button" class="btn btn-light px-4 py-2 btn-header">Book Now</button>
+                      <p>Bring powerful digital learning into your professional practice. Explore current issues and emerging trends in the field.</p>
+                      <div>
+                        <button type="button" class="btn btn-primary bg-gradient px-4 py-2 btn-header">Book Now</button>
+                      </div>
+                      
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
+                    <div class="banner-img">
+                      <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-flex flex-column h-100 justify-content-center align-intem-cente banner-header">
                       <h5>Get Started Digital Learning</h5>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                      <button type="button" class="btn btn-light px-4 py-2 btn-header">Book Now</button>
+                      <p>Bring powerful digital learning into your professional practice. Explore current issues and emerging trends in the field.</p>
+                      <div>
+                        <button type="button" class="btn btn-primary bg-gradient px-4 py-2 btn-header">Book Now</button>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -86,8 +100,8 @@
               </div>            
         </section>
         <!-- course section -->
-        <section class="container course">
-          <div class="course-header text-center">
+        <section class="container course mb-5" id="courses">
+          <div class="course-header text-center p-5">
             <h6 class="fw-bold text-center fs-4">Discover Our Popular Courses</h6>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
@@ -100,9 +114,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                      <p class="card-text small">Understand User Experience Design ( UX ) to begin designing web and mobile apps to keep your users engaged and happy.</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
@@ -116,9 +130,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                      <p class="card-text small">The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
@@ -132,9 +146,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Fullstack Web Development</h5>
+                      <p class="card-text small">Become a Full-Stack Web Designer in 2022 - Learn Everything from Web Design Fundamentals to Front-End Web Development.</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
@@ -148,9 +162,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Digital Marketing</h5>
+                      <p class="card-text small">Grow your business with Digital Marketing, Content Marketing, SEO, SMM, Email Marketing, Google Ads and Google Analytics.</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
@@ -164,9 +178,9 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                      <p class="card-text small">A Beginners Guide and introduction to the art of traditional photography. Learn the basics alongside traditional skills.</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
@@ -180,29 +194,29 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                      <p class="card-text">Price: $20</p>
+                      <h5 class="card-title fw-bold">Motion Graphics</h5>
+                      <p class="card-text small">Learn How to Create Professional Motion Graphics & Animations. Add Exciting Visual Effects to Your Own Video Projects.</p>
+                      <p class="card-text fw-semibold text-primary">Price: $20</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="primary-button text-center my-3">
+          <div class="primary-button text-center mt-3 pt-3">
             <button type="button" class="btn btn-primary">See More Courses</button>
           </div>
         </section>
         <!-- register section -->
-        <section class="container register text-bg-secondary p-5 my-3 d-flex justify-content-center align-items-center">
+        <section class="container register bg-primary bg-gradient p-5 mb-5 d-flex justify-content-center align-items-center" id="register">
           <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-lg-9">
-              <h6>Ready to join?</h6>
+            <div class="col-lg-9 text-white">
+              <h6 class="fs-4">Ready to join?</h6>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
             <!-- modal button -->
             <div class="col-lg-3 text-center">
-              <button type="button" class="btn btn-primary fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>          
+              <button type="button" class="btn btn-light text-primary fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>          
             </div>
           </div>
         </section>
@@ -225,9 +239,9 @@
           </div>
         </div>
 
-        <!--Feedback section  -->
+        <!--faq section  -->
         <section class="container">
-          <div class="frequently-header text-center">
+          <div class="frequently-header text-center p-3">
             <h6 class="fw-bold text-center fs-4">Frequently Asked Questions</h6>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
@@ -281,10 +295,10 @@
               </div>
         </section>
         <!-- tursted company logo -->
-        <section class="container d-none d-lg-block company-logos">
-          <div class="comapnay-header text-center">
+        <section class="container d-none d-lg-block company-logos my-5">
+          <div class="comapnay-header text-center my-5">
             <h6 class="fw-bold text-center fs-4">Trusted by over 800+ companies</h6>
-            <div class="d-flex justify-content-evenly">
+            <div class="d-flex justify-content-evenly my-5">
               <img class="img-fluid" src="images/company/company-1.png" alt="" style="width: 6rem; height: 2rem;">
               <img class="img-fluid" src="images/company/company-2.png" alt="" style="width: 6rem; height: 2rem;">
               <img class="img-fluid" src="images/company/company-3.png" alt="" style="width: 6rem; height: 2rem;">
@@ -295,9 +309,25 @@
             </div>
           </div>
         </section>
+        <!-- footer seciton -->
+        <footer class="container-fluid text-center p-5 bg-dark text-white mt-4" id="faq">
+          <div>
+            <h6>Tech Edu</h6>
+            <div class="lh-1">
+              <p>Office 1, Zawaya Buildin, Ghala Muscat,</p>
+              <p>Sultanate of Oman</p>
+              <p>Privacy Ploicy  |   Terms of use</p>
+              <p><a href="#" class="text-reset"><i class="fa-brands fa-facebook"></i></a><a href="#" class="text-reset"><i class="fa-brands fa-instagram mx-3"></i></a><a href="#" class="text-reset"><i class="fa-brands fa-twitter"></i></a></p>
+
+            </div>
+            
+          </div>
+
+        </footer>
 
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b7708cd6db.js" crossorigin="anonymous"></script>
   </body>
 </html>
